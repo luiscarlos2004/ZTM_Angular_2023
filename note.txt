@@ -1,0 +1,74 @@
+Angular is for large sites applications
+Cli is a required to configure the application
+AppFiles -> AngularCLI -> Bundle
+ng version = This command tests angular cli intalled
+Angular comes with a server
+Monitor files for changes
+Requeried for Http requests
+Editorsconfig = 
+Angular.json = to configurate the project 
+Architect is the most crutial option this contain information for buiding the project
+Build = production enviroment. the enviroment. to share to production. build the project for production
+Serve = development the application. Server using for the project. build the projec for dedvelopment
+extract = translation for the project.
+text = testing the project.
+tsconfig.App = to config our application
+tsconfig.spec = to config our testing
+tsconfig = 
+extends helps with the configurations
+load angular before app = 
+main.ts
+Main Entry file  = Load Angular fremewook than load the app-code(inside SRC folder called main.ts)(Needs to load the angular framewoork, loads the app code).
+Architect contains everything for buiding the project
+
+Aot compilation = 
+Compilation = transform one language to another(Process of transformating code into a machine  code)
+Angular provides two compilations = in time compilation, 
+
+
+Just-In-Tie = Larger file size, Loads slower since compiler needs to run in browser, catch errors in browser
+Ahead-Of-Time = Small file size Loads faster since the app is compiled on delivery to the browser, catch error on the server
+Just-In-Time(JIT)
+server -> TypeScript code -> Browser dowload the code (Template, service, modules) inlcuded the compiler -> Browser runs app
+
+Ahead-Of-Time(AOT)
+
+-----//-----
+Loading platform
+helps angular undertand the enviroment
+There are two ways to compile plaform. Compilation extractegies helps angular to undertand the enviroment
+Develop app for the browser
+App.module.ts = contains the module to start our app
+ 
+-----//-----
+Change detention : process the update the html whenever date updatded
+reactivity
+change detention runs = When the app is initializated, During changes in our data, Manually triggering change detention.
+Change detention runs twice when an app is inicialized
+
+Development option = optimization is the most important 
+
+Product -> Single Product -> Product List -> GetImage()
+App modules helps other developer identify modules 
+Module is written as a class
+
+Angular is primary use on the browser
+can run angular on mobile devices
+
+using component is like using any another task
+
+external templates and style
+Model = Data,View = HTML,CSS ,Controller = Typescript class
+
+src = 
+src / assets = for static files
+polyfills = supoting future no avaibale on the browser
+app.component.spect.ts = this files contain the information for test the components
+Apps are built by components
+
+-----//-----
+interpolation =
+An expression is a single line of code that evaluates to a value
+Not expression = functions, conditions, variable declaration
+expression = {{name}} this is to handle expressions
+
